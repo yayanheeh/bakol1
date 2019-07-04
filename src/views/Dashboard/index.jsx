@@ -39,7 +39,7 @@ class Dashboard extends Component {
     const { classes } = this.props;
 
     return (
-      <DashboardLayout title="Dashboard">
+      <DashboardLayout title="Bakolscript">
         <div className={classes.root}>
           <Grid
             container
