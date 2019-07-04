@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
+
 
 // Externals
 import PropTypes from 'prop-types';
@@ -10,12 +14,16 @@ import { withStyles } from '@material-ui/core';
 import { Dashboard as DashboardLayout } from 'layouts';
 
 // Component styles
-const styles = theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
-    padding: theme.spacing.unit * 4
+    flexGrow: 1,
   },
- 
-});
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+  },
+}));
 
 class Yayan extends Component {
   render() {
@@ -25,36 +33,6 @@ class Yayan extends Component {
       <DashboardLayout title="Icons">
         <div className={classes.root}>
       Tess 
- <Grid
-            container
-            spacing={4}
-          >
-            <Grid
-              item
-              lg={3}
-              sm={6}
-              xl={3}
-              xs={12}
-            >
-             Tes1    </Grid>
-            <Grid
-              item
-              lg={3}
-              sm={6}
-              xl={3}
-              xs={12}
-            >
-        Tes2
-    </Grid>
-            <Grid
-              item
-              lg={3}
-              sm={6}
-              xl={3}
-              xs={12}
-            >
-           Tes3
-</Grid></Grid>
 
 Tes
 
