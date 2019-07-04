@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 // Externals
 import PropTypes from 'prop-types';
 
-// Card
-import CardContent from '@material-ui/core/CardContent';
+// Grif
+import Grid from '@material-ui/core/Grid';
 
 // Material helpers
 import { withStyles } from '@material-ui/core';
@@ -13,16 +13,16 @@ import { withStyles } from '@material-ui/core';
 import { Dashboard as DashboardLayout } from 'layouts';
 
 // Component styles
-const styles = theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
-    padding: theme.spacing.unit * 4
+    flexGrow: 1,
   },
-  iframe: {
-    width: '100%',
-    minHeight: '640px',
-    border: 0
-  }
-});
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+  },
+}));
 
 class Yayan extends Component {
   render() {
@@ -33,33 +33,13 @@ class Yayan extends Component {
         <div className={classes.root}>
          Tessss
  
-    <Card className={classes.card}>
-      <CardContent>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
-          Word of the Day
-        </Typography>
-        <Typography variant="h5" component="h2">
-          be
-          {bull}
-          nev
-          {bull}o{bull}
-          lent
-        </Typography>
-        <Typography className={classes.pos} color="textSecondary">
-          adjective
-        </Typography>
-        <Typography variant="body2" component="p">
-          well meaning and kindly.
-          <br />
-          {'"a benevolent smile"'}
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">Learn More</Button>
-      </CardActions>
-    </Card>
-
-
+      <Grid item xs={6}>
+          <Paper className={classes.paper}>xs=6</Paper>
+        </Grid>
+        <Grid item xs={6}>
+          <Paper className={classes.paper}>xs=6</Paper>
+        </Grid>
+Tes
         </div>
       </DashboardLayout>
     );
