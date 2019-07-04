@@ -14,10 +14,9 @@ export default [
     id: 'DEV795381',
     title: 'Medium Corporation',
     description:
-      'Medium is an online publishing platform developed by Evan Williams, and launched in August 2012.',
+      'Medium is an online publishing platform developed by Evan Williams, and launched in August 2012, <router-link :to="'users'">Selengkapnya</router-link>',
     imageUrl: '/images/products/product_2.png',
-    <router-link to="users">Selengkapnya</router-link>
-totalDownloads: '625',
+    totalDownloads: '625',
     price: '27',
     status: 'archived',
     createdAt: '31/03/2019'
