@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 // Externals
 import PropTypes from 'prop-types';
 
+// Card
+import CardContent from '@material-ui/core/CardContent';
+
 // Material helpers
 import { withStyles } from '@material-ui/core';
 
