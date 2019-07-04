@@ -1,18 +1,9 @@
 import React, { Component } from 'react';
-
-// Externals
 import PropTypes from 'prop-types';
-
-// Grif
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-
-// Material helpers
-import { withStyles } from '@material-ui/core';
-
-// Shared layouts
 import { Dashboard as DashboardLayout } from 'layouts';
-
-// Component styles
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
