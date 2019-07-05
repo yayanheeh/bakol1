@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Theme, createStyles, makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import Grid from '@material-ui/core/Grid';
 
 
 // Externals
@@ -44,6 +45,11 @@ class Yayan extends Component {
         </Typography>
       </Paper>
     </div>
+ <Grid item xs={12} sm={6}>
+      <div>tes1</div>  </Grid>
+        <Grid item xs={12} sm={6}>
+         <div>tes2</div> </Grid>
+
 </div>
       </DashboardLayout>
     );
