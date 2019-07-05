@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 // Externals
 import classNames from 'classnames';
@@ -49,7 +50,7 @@ class Users extends Component {
             </Typography>
           </div>
           <div className={classes.iconWrapper}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" height="70" width="70" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" height="50" width="50" />
           </div>
         </div>
         <div className={classes.footer}>
@@ -64,7 +65,8 @@ class Users extends Component {
             className={classes.caption}
             variant="caption"
           >
-            Since last month
+<NavLink to="/Home">Selengkapnya</NavLink>
+            
           </Typography>
         </div>
       </Paper>
