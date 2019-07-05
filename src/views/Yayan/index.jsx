@@ -28,7 +28,10 @@ class Yayan extends Component {
 
     return (
       <DashboardLayout title="Icons">
-      <div>
+        <div className={classes.root}>
+     
+
+<div>
       <Paper className={classes.root}>
         <Typography variant="h5" component="h3">
           This is a sheet of paper.
@@ -38,6 +41,7 @@ class Yayan extends Component {
         </Typography>
       </Paper>
     </div>
+</div>
       </DashboardLayout>
     );
   }
