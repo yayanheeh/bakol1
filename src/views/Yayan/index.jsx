@@ -47,9 +47,9 @@ class Yayan extends Component {
     </div>
 <Grid container spacing={3}>
  <Grid item xs={12} sm={6}>
-      <div>tes1</div>  </Grid>
+      tes1  </Grid>
         <Grid item xs={12} sm={6}>
-         <div>tes2</div> </Grid></Grid>
+         tes2 </Grid></Grid>
 
 </div>
       </DashboardLayout>
