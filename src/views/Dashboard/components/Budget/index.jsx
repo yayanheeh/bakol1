@@ -1,4 +1,7 @@
+
+
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 // Externals
 import classNames from 'classnames';
@@ -12,8 +15,8 @@ import { Typography } from '@material-ui/core';
 
 // Material icons
 import {
-  ArrowDownward as ArrowDownwardIcon,
-  Money as MoneyIcon
+  ArrowUpward as ArrowUpwardIcon,
+  PeopleOutlined as PeopleIcon
 } from '@material-ui/icons';
 
 // Shared components
@@ -22,7 +25,7 @@ import { Paper } from 'components';
 // Component styles
 import styles from './styles';
 
-class Budget extends Component {
+class Users extends Component {
   render() {
     const { classes, className, ...rest } = this.props;
 
@@ -39,17 +42,17 @@ class Budget extends Component {
               className={classes.title}
               variant="body2"
             >
-              BUDGET
+              Script web Telegram
             </Typography>
             <Typography
               className={classes.value}
               variant="h3"
             >
-              $24,000
+             Rp 100.000
             </Typography>
           </div>
           <div className={classes.iconWrapper}>
-            <MoneyIcon className={classes.icon} />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" height="65" width="65" />
           </div>
         </div>
         <div className={classes.footer}>
@@ -57,14 +60,14 @@ class Budget extends Component {
             className={classes.difference}
             variant="body2"
           >
-            <ArrowDownwardIcon />
-            12%
+           <img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon.png"/>    
           </Typography>
           <Typography
             className={classes.caption}
             variant="caption"
           >
-            Since last month
+<NavLink to="/Home">Selengkapnya</NavLink>
+            
           </Typography>
         </div>
       </Paper>
@@ -72,9 +75,9 @@ class Budget extends Component {
   }
 }
 
-Budget.propTypes = {
+Users.propTypes = {
   className: PropTypes.string,
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(Budget);
+export default withStyles(styles)(Users);
