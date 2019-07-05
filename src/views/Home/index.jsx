@@ -15,22 +15,22 @@ import { Dashboard as DashboardLayout } from 'layouts';
 // Component styles
 const styles = theme => ({
   root: {
-    flexGrow: 1,
-    },
-    paper: {
-      padding: theme.spacing(2),
-      textAlign: 'center',
-      color: theme.palette.text.secondary,
-    },
-  }),
-);
+    padding: theme.spacing.unit * 4
+  },
+  iframe: {
+    width: '100%',
+    minHeight: '640px',
+    border: 0
+  }
+});
+
 
 class Home extends Component {
   render() {
     const { classes } = this.props;
 
     return (
-      <DashboardLayout title="Bakolscript">
+      <DashboardLayout title="Home">
         <div className={classes.root}>
          Tessss
  
