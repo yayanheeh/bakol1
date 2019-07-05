@@ -50,7 +50,7 @@ class Users extends Component {
             </Typography>
           </div>
           <div className={classes.iconWrapper}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" height="60" width="60" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" height="65" width="65" />
           </div>
         </div>
         <div className={classes.footer}>
@@ -58,8 +58,7 @@ class Users extends Component {
             className={classes.difference}
             variant="body2"
           >
-           <img src="https://img.icons8.com/carbon-copy/50/000000/bookmark-ribbon.png"/>
-          
+           <img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon.png"/>    
           </Typography>
           <Typography
             className={classes.caption}
