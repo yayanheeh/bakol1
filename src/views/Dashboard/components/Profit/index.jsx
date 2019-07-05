@@ -41,7 +41,7 @@ class Users extends Component {
               className={classes.title}
               variant="body2"
             >
-              Script web Telegram
+              Script web Soundcloud
             </Typography>
             <Typography
               className={classes.value}
@@ -51,7 +51,7 @@ class Users extends Component {
             </Typography>
           </div>
           <div className={classes.iconWrapper}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" height="65" width="65" />
+            <img src="http://mfml.org/wp-content/uploads/2018/04/soundcloud-icon.png" height="65" width="65" />
           </div>
         </div>
         <div className={classes.footer}>
