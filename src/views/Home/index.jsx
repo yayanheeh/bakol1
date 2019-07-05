@@ -24,7 +24,6 @@ const styles = theme => ({
       color: theme.palette.text.secondary,
     },
   }),
-);
 
 class Home extends Component {
   render() {
