@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
 
 // Externals
 import PropTypes from 'prop-types';
@@ -12,14 +15,15 @@ import { Dashboard as DashboardLayout } from 'layouts';
 // Component styles
 const styles = theme => ({
   root: {
-    padding: theme.spacing.unit * 4
-  },
-  iframe: {
-    width: '100%',
-    minHeight: '640px',
-    border: 0
-  }
-});
+    flexGrow: 1,
+    },
+    paper: {
+      padding: theme.spacing(2),
+      textAlign: 'center',
+      color: theme.palette.text.secondary,
+    },
+  }),
+);
 
 class Home extends Component {
   render() {
