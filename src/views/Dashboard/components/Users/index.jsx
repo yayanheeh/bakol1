@@ -58,7 +58,7 @@ class Users extends Component {
             className={classes.difference}
             variant="body2"
           >
-           <img src="https://img.icons8.com/carbon-copy/20/000000/bookmark-ribbon.png"/>
+           <img src="https://img.icons8.com/carbon-copy/50/000000/bookmark-ribbon.png"/>
           
           </Typography>
           <Typography
