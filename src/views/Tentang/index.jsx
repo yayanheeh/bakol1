@@ -21,12 +21,12 @@ const styles = theme => ({
   }
 });
 
-class Icons extends Component {
+class Tentang extends Component {
   render() {
     const { classes } = this.props;
 
     return (
-      <DashboardLayout title="Icons">
+      <DashboardLayout title="Tentang">
         <div className={classes.root}>
          Tessss
  
@@ -38,8 +38,8 @@ Tes
   }
 }
 
-Icons.propTypes = {
+Tentang.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(Icons);
+export default withStyles(styles)(Tentang);
