@@ -12,22 +12,18 @@ import { withStyles } from '@material-ui/core';
 
 
 // Component styles
-const styles = theme => ({
-  root: {
-    padding: theme.spacing.unit * 4
-  },
-  content: {
-    marginTop: '150px',
-    textAlign: 'center'
-  },
-  image: {
-    display: 'inline-block',
-    marginTop: '50px',
-    maxWidth: '100%',
-    width: '554px'
-  }
-});
-
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    root: {
+      flexGrow: 1,
+    },
+    paper: {
+      padding: theme.spacing(2),
+      textAlign: 'center',
+      color: theme.palette.text.secondary,
+    },
+  }),
+);
 class Home extends Component {
   render() {
     const { classes } = this.props;
