@@ -1,12 +1,13 @@
+
+
 export default theme => ({
   root: {
     padding: theme.spacing.unit * 3
   },
   content: {
-    display: 'flex',
-    alignItems: 'center'
+    alignItems: 'center',
+    display: 'flex'
   },
-  details: {},
   title: {
     color: theme.palette.text.secondary,
     fontWeight: 700
@@ -16,7 +17,7 @@ export default theme => ({
   },
   iconWrapper: {
     alignItems: 'center',
-    backgroundColor: theme.palette.primary.main,
+    backgroundColor: theme.palette.success.main,
     borderRadius: '50%',
     display: 'inline-flex',
     height: '4rem',
@@ -31,6 +32,18 @@ export default theme => ({
     width: '2rem'
   },
   footer: {
-    marginTop: theme.spacing.unit * 3
+    marginTop: theme.spacing.unit * 2,
+    display: 'flex',
+    alignItems: 'center'
+  },
+  difference: {
+    alignItems: 'center',
+    color: theme.palette.success.dark,
+    display: 'inline-flex',
+    fontWeight: 700
+  },
+  caption: {
+    marginLeft: theme.spacing.unit
   }
 });
+
