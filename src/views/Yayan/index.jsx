@@ -14,13 +14,16 @@ import { withStyles } from '@material-ui/core';
 import { Dashboard as DashboardLayout } from 'layouts';
 
 // Component styles
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    root: {
-      padding: theme.spacing(3, 2),
-    },
-  }),
-);
+const styles = theme => ({
+  root: {
+    padding: theme.spacing.unit * 4
+  },
+  iframe: {
+    width: '100%',
+    minHeight: '640px',
+    border: 0
+  }
+});
 
 class Yayan extends Component {
   render() {
