@@ -1,3 +1,4 @@
+
 export default theme => ({
   root: {
     padding: theme.spacing.unit * 3
@@ -15,7 +16,7 @@ export default theme => ({
   },
   iconWrapper: {
     alignItems: 'center',
-    backgroundColor: theme.palette.danger.main,
+    backgroundColor: theme.palette.success.main,
     borderRadius: '50%',
     display: 'inline-flex',
     height: '4rem',
@@ -36,7 +37,7 @@ export default theme => ({
   },
   difference: {
     alignItems: 'center',
-    color: theme.palette.danger.dark,
+    color: theme.palette.success.dark,
     display: 'inline-flex',
     fontWeight: 700
   },
@@ -44,3 +45,4 @@ export default theme => ({
     marginLeft: theme.spacing.unit
   }
 });
+
