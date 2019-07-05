@@ -52,7 +52,7 @@ class Users extends Component {
             </Typography>
           </div>
           <div className={classes.iconWrapper}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" height="65" width="65" />
+            <img src="http://icons.iconarchive.com/icons/martz90/circle/256/youtube-icon.png" height="65" width="65" />
           </div>
         </div>
         <div className={classes.footer}>
