@@ -39,13 +39,13 @@ class Users extends Component {
               className={classes.title}
               variant="body2"
             >
-              TOTAL USERS
+              Script web Telegram
             </Typography>
             <Typography
               className={classes.value}
               variant="h3"
             >
-              1600
+             Rp 100.000
             </Typography>
           </div>
           <div className={classes.iconWrapper}>
