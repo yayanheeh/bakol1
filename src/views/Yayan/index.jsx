@@ -45,10 +45,11 @@ class Yayan extends Component {
         </Typography>
       </Paper>
     </div>
+<Grid container spacing={3}>
  <Grid item xs={12} sm={6}>
       <div>tes1</div>  </Grid>
         <Grid item xs={12} sm={6}>
-         <div>tes2</div> </Grid>
+         <div>tes2</div> </Grid></Grid>
 
 </div>
       </DashboardLayout>
