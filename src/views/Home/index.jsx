@@ -8,18 +8,17 @@ import Grid from '@material-ui/core/Grid';
 import PropTypes from 'prop-types';
 
 // Component styles
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    root: {
-      flexGrow: 1,
-    },
-    paper: {
-      padding: theme.spacing(2),
-      textAlign: 'center',
-      color: theme.palette.text.secondary,
-    },
-  }),
-);
+const styles = theme => ({
+  root: {
+    padding: theme.spacing.unit * 4
+  },
+  iframe: {
+    width: '100%',
+    minHeight: '640px',
+    border: 0
+  }
+});
+
 class Home extends Component {
   render() {
     const { classes } = this.props;
