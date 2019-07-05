@@ -7,10 +7,6 @@ import Grid from '@material-ui/core/Grid';
 // Externals
 import PropTypes from 'prop-types';
 
-// Material helpers
-import { withStyles } from '@material-ui/core';
-
-
 // Component styles
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
