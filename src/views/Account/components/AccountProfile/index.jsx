@@ -37,14 +37,9 @@ class AccountProfile extends Component {
                 variant="body1"
               >
                 Rm. Valcea, Romania
-              <Link
-      component="yayan"
-      onClick={() => {
-        alert("I'm a button.");
-      }}
-    >
-      Button Link yayan
-    </Link>
+              <Link href={yayan} className={classes.link}>
+        Link yayan
+      </Link>
 
               </Typography>
               <Typography
