@@ -168,7 +168,7 @@ class ProductList extends Component {
             size="small"
             variant="text"
           >
-            View all <ArrowRightIcon />
+         <Link to="user">View all</link> <ArrowRightIcon />
           </Button>
         </PortletFooter>
       </Portlet>
