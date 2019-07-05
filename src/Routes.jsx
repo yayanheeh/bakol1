@@ -12,7 +12,7 @@ import Settings from './views/Settings';
 import SignUp from './views/SignUp';
 import SignIn from './views/SignIn';
 import Yayan from './views/Yayan';
-import Yayan from './views/Home';
+import Home from './views/Home';
 import UnderDevelopment from './views/UnderDevelopment';
 import NotFound from './views/NotFound';
 
