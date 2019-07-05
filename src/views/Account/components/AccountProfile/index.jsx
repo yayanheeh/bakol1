@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Link from '@material-ui/core/Link';
 // Externals
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
@@ -36,6 +37,15 @@ class AccountProfile extends Component {
                 variant="body1"
               >
                 Rm. Valcea, Romania
+              <Link
+      component="yayan"
+      onClick={() => {
+        alert("I'm a button.");
+      }}
+    >
+      Button Link yayan
+    </Link>
+
               </Typography>
               <Typography
                 className={classes.dateText}
