@@ -12,6 +12,7 @@ import Settings from './views/Settings';
 import SignUp from './views/SignUp';
 import SignIn from './views/SignIn';
 import Yayan from './views/Yayan';
+import Yayan from './views/Home';
 import UnderDevelopment from './views/UnderDevelopment';
 import NotFound from './views/NotFound';
 
@@ -73,6 +74,11 @@ export default class Routes extends Component {
           component={Yayan}
           exact
           path="/yayan"
+        />
+        <Route
+          component={Home}
+          exact
+          path="/home"
         />
         <Route
           component={UnderDevelopment}
