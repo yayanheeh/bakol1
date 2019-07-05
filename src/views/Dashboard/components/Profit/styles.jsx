@@ -1,24 +1,23 @@
+
+
 export default theme => ({
   root: {
-    backgroundColor: theme.palette.primary.main,
-    borderColor: theme.palette.primary.main,
     padding: theme.spacing.unit * 3
   },
   content: {
-    display: 'flex',
-    alignItems: 'center'
+    alignItems: 'center',
+    display: 'flex'
   },
-  details: {},
   title: {
-    fontWeight: 700,
-    color: theme.palette.common.white
+    color: theme.palette.text.secondary,
+    fontWeight: 700
   },
   value: {
-    color: theme.palette.common.white
+    marginTop: theme.spacing.unit
   },
   iconWrapper: {
     alignItems: 'center',
-    backgroundColor: theme.palette.common.white,
+    backgroundColor: theme.palette.success.main,
     borderRadius: '50%',
     display: 'inline-flex',
     height: '4rem',
@@ -27,9 +26,24 @@ export default theme => ({
     width: '4rem'
   },
   icon: {
-    color: theme.palette.primary.main,
-    width: '2rem',
+    color: theme.palette.common.white,
+    fontSize: '2rem',
     height: '2rem',
-    fontSize: '2rem'
+    width: '2rem'
+  },
+  footer: {
+    marginTop: theme.spacing.unit * 2,
+    display: 'flex',
+    alignItems: 'center'
+  },
+  difference: {
+    alignItems: 'center',
+    color: theme.palette.success.dark,
+    display: 'inline-flex',
+    fontWeight: 700
+  },
+  caption: {
+    marginLeft: theme.spacing.unit
   }
 });
+
