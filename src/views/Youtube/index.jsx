@@ -23,9 +23,8 @@ const styles = theme => ({
     width: '100%',
     minHeight: '640px',
     border: 0
-  }
-
-.button {
+  },
+button {
   background-color: #4CAF50;
   border: none;
   color: white;
