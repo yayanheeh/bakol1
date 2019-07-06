@@ -10,6 +10,10 @@ import { withStyles } from '@material-ui/core';
 // Material components
 import { Checkbox, Typography, Button } from '@material-ui/core';
 
+// Material components
+import { Divider, Typography } from '@material-ui/core';
+
+
 // Shared components
 import {
   Portlet,
@@ -41,8 +45,7 @@ class Notifications extends Component {
         </PortletHeader>
         <PortletContent noPadding>
           <form className={classes.form}>
-             <Typography variant="subtitle2">
-          
+              <Typography variant="caption">
             
             Telegram adalah aplikasi perpesanan tercepat di pasar, menghubungkan orang-orang melalui jaringan pusat data yang unik dan terdistribusi di seluruh dunia.
 <br/>
