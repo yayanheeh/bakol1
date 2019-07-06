@@ -12,6 +12,10 @@ import Settings from './views/Settings';
 import SignUp from './views/SignUp';
 import SignIn from './views/SignIn';
 import Yayan from './views/Yayan';
+import Youtube from './views/Youtube';
+import Telegram from './views/Telegram';
+import Soundcloud from './views/Soundcloud';
+import Downloader from './views/Downloader';
 import Home from './views/Home';
 import UnderDevelopment from './views/UnderDevelopment';
 import NotFound from './views/NotFound';
@@ -74,6 +78,27 @@ export default class Routes extends Component {
           component={Yayan}
           exact
           path="/yayan"
+        />
+ <Route
+          component={Telegram}
+          exact
+          path="/telegram"
+        />
+
+ <Route
+          component={Downloader}
+          exact
+          path="/downloader"
+        />
+ <Route
+          component={Souncloud}
+          exact
+          path="/soundcloud"
+        />
+ <Route
+          component={Youtube}
+          exact
+          path="/youtube"
         />
         <Route
           component={Home}
