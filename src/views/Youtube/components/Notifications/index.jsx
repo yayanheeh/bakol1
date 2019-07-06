@@ -89,7 +89,7 @@ class Notifications extends Component {
                         
                   </Typography>       
                      
-             </paper>       
+             </Paper>       
          
         </PortletContent>
         <PortletFooter className={classes.portletFooter}>
