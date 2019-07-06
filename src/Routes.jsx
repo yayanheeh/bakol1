@@ -79,23 +79,23 @@ export default class Routes extends Component {
           exact
           path="/yayan"
         />
- <Route
+        <Route
           component={Telegram}
           exact
           path="/telegram"
         />
 
- <Route
+        <Route
           component={Downloader}
           exact
           path="/downloader"
         />
- <Route
+        <Route
           component={Souncloud}
           exact
           path="/soundcloud"
         />
- <Route
+       <Route
           component={Youtube}
           exact
           path="/youtube"
