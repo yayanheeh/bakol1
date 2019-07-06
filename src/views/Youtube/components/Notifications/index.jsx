@@ -42,8 +42,8 @@ class Notifications extends Component {
         <PortletContent noPadding>
           <form className={classes.form}>
             <PortletLabel
-            subtitle="
-          <p align="justify">
+            subtitle align="justify="
+          
             
             Telegram adalah aplikasi perpesanan tercepat di pasar, menghubungkan orang-orang melalui jaringan pusat data yang unik dan terdistribusi di seluruh dunia.
 <br/
@@ -83,7 +83,7 @@ class Notifications extends Component {
 
 <br/>
                         <b>PRIVATE </b>
-                        <br/>Kami menjaga privasi Anda dengan serius dan tidak akan pernah memberikan akses pihak ketiga ke data Anda.</p>
+                        <br/>Kami menjaga privasi Anda dengan serius dan tidak akan pernah memberikan akses pihak ketiga ke data Anda.
                         
                         
                         
