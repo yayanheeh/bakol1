@@ -8,10 +8,7 @@ import classNames from 'classnames';
 import { withStyles } from '@material-ui/core';
 
 // Material components
-import { Checkbox, Typography, Button } from '@material-ui/core';
-
-// Material components
-import { Divider, Typography } from '@material-ui/core';
+import { Checkbox, Divider, Typography, Button } from '@material-ui/core';
 
 
 // Shared components
