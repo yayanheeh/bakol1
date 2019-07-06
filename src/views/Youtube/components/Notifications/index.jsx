@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Paper from '@material-ui/core/Paper';
 
 // Externals
 import PropTypes from 'prop-types';
@@ -41,6 +42,8 @@ class Notifications extends Component {
           />
         </PortletHeader>
         <PortletContent noPadding>
+  <Paper className={classes.root}>
+
 <Typography variant="body1">
             
             
@@ -86,7 +89,7 @@ class Notifications extends Component {
                         
                   </Typography>       
                      
-                    
+             </paper>       
          
         </PortletContent>
         <PortletFooter className={classes.portletFooter}>
