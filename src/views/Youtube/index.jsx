@@ -35,17 +35,18 @@ class Settings extends Component {
           >
             <Grid
               item
-              md={7}
-              xs={12}
-            >
-              <Notifications />
-            </Grid>
-            <Grid
-              item
               md={5}
               xs={12}
             >
               <Password />
+            </Grid>
+            <Grid
+              item
+              md={7}
+              xs={12}
+            >
+ <Notifications />
+              
             </Grid>
           </Grid>
         </div>
