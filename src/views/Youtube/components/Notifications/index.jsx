@@ -46,8 +46,8 @@ class Notifications extends Component {
           
             
             Telegram adalah aplikasi perpesanan tercepat di pasar, menghubungkan orang-orang melalui jaringan pusat data yang unik dan terdistribusi di seluruh dunia.
-<br/
-  <b>Cepat>
+<br/>
+  <b>Cepat></b>
                         <br/>
                         <b>SYNCED </b>
                         <br/>
