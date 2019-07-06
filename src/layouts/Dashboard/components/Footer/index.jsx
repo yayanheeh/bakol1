@@ -34,7 +34,7 @@ class Footer extends Component {
           className={classes.company}
           variant="body1"
         >
-          &copy; Devias Io. 2019
+          &copy; Yayan He'eh. 2019
         </Typography>
         <Typography variant="caption">
           Created with love for the environment. By designers and developers who
