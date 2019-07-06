@@ -42,7 +42,7 @@ class Users extends Component {
               className={classes.title}
               variant="body2"
             >
-              Script web Telegram
+              Script downloader video
             </Typography>
             <Typography
               className={classes.value}
@@ -52,8 +52,7 @@ class Users extends Component {
             </Typography>
           </div>
           <div className={classes.iconWrapper}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" height="65" width="65" />
-          </div>
+            <img src="https://img.icons8.com/clouds/30/000000/download.png"/> </div>
         </div>
         <div className={classes.footer}>
           <Typography
