@@ -41,6 +41,8 @@ class Notifications extends Component {
           />
         </PortletHeader>
         <PortletContent noPadding>
+<PortletLabel
+            subtitle="
             <Typography variant="caption">
             
             Telegram adalah aplikasi perpesanan tercepat di pasar, menghubungkan orang-orang melalui jaringan pusat data yang unik dan terdistribusi di seluruh dunia.
@@ -85,7 +87,7 @@ class Notifications extends Component {
                         
                   </Typography>       
                         
-                     
+                     "/>
          
         </PortletContent>
         <PortletFooter className={classes.portletFooter}>
