@@ -45,7 +45,9 @@ class Notifications extends Component {
             subtitle="
                      Telegram adalah aplikasi perpesanan tercepat di pasar, menghubungkan orang-orang melalui jaringan pusat data yang unik dan terdistribusi di seluruh dunia.
 "/>  <br/>
- <PortletLabel title=" Telegram"/>
+ <PortletLabel 
+  subtitle=""
+title=" Telegram"/>
 
  <PortletLabel
             subtitle="
