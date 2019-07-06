@@ -91,7 +91,7 @@ export default class Routes extends Component {
           path="/downloader"
         />
         <Route
-          component={Souncloud}
+          component={Soundcloud}
           exact
           path="/soundcloud"
         />
