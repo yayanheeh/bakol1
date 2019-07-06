@@ -24,6 +24,19 @@ const styles = theme => ({
     minHeight: '640px',
     border: 0
   }
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 });
 
 class Youtube extends Component {
@@ -45,6 +58,9 @@ class Youtube extends Component {
         </Typography>
       </Paper>
     </div>
+
+
+
 <Grid container spacing={3}>
  <Grid item xs={12} sm={6}>
       tes1  </Grid>
