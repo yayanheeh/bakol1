@@ -26,7 +26,7 @@ const styles = theme => ({
   }
 });
 
-class Yayan extends Component {
+class Telegram extends Component {
   render() {
     const { classes } = this.props;
 
@@ -57,8 +57,8 @@ class Yayan extends Component {
   }
 }
 
-Yayan.propTypes = {
+Telegram.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(Yayan);
+export default withStyles(styles)(Telegram);
