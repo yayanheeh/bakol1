@@ -30,7 +30,7 @@ import { Facebook as FacebookIcon, Google as GoogleIcon } from 'icons';
 import styles from './styles';
 
 // Service methods
-const signIn = () => {
+const Youtube = () => {
   return new Promise(resolve => {
     setTimeout(() => {
       resolve(true);
@@ -294,7 +294,7 @@ class SignIn extends Component {
   }
 }
 
-SignIn.propTypes = {
+Youtube.propTypes = {
   className: PropTypes.string,
   classes: PropTypes.object.isRequired,
   history: PropTypes.object.isRequired
@@ -303,4 +303,4 @@ SignIn.propTypes = {
 export default compose(
   withRouter,
   withStyles(styles)
-)(SignIn);
+)(Youtube);
