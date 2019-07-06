@@ -41,79 +41,8 @@ class Notifications extends Component {
         </PortletHeader>
         <PortletContent noPadding>
           <form className={classes.form}>
-            <div className={classes.group}>
-              <Typography
-                className={classes.groupLabel}
-                variant="h6"
-              >
-                Notifications
-              </Typography>
-              <div className={classes.field}>
-                <Checkbox color="primary" />
-                <div>
-                  <Typography variant="body1">Email</Typography>
-                </div>
-              </div>
-              <div className={classes.field}>
-                <Checkbox
-                  color="primary"
-                  defaultChecked
-                />
-                <div>
-                  <Typography variant="body1">Push Notifications</Typography>
-                  <Typography variant="caption">
-                    For your mobile or tablet device
-                  </Typography>
-                </div>
-              </div>
-              <div className={classes.field}>
-                <Checkbox
-                  color="primary"
-                  defaultChecked
-                />
-                <div>
-                  <Typography variant="body1">Text Messages</Typography>
-                </div>
-              </div>
-              <div className={classes.field}>
-                <Checkbox
-                  color="primary"
-                  defaultChecked
-                />
-                <div>
-                  <Typography variant="body1">Phone calls</Typography>
-                </div>
-              </div>
-            </div>
-            <div className={classes.group}>
-              <Typography
-                className={classes.groupLabel}
-                variant="h6"
-              >
-                Messages
-              </Typography>
-              <div className={classes.field}>
-                <Checkbox color="primary" />
-                <div>
-                  <Typography variant="body1">Email</Typography>
-                </div>
-              </div>
-              <div className={classes.field}>
-                <Checkbox color="primary" />
-                <div>
-                  <Typography variant="body1">Push Notifications</Typography>
-                </div>
-              </div>
-              <div className={classes.field}>
-                <Checkbox
-                  color="primary"
-                  defaultChecked
-                />
-                <div>
-                  <Typography variant="body1">Phone calls</Typography>
-                </div>
-              </div>
-            </div>
+            Telegram adalah aplikasi perpesanan tercepat di pasar, menghubungkan orang-orang melalui jaringan pusat data yang unik dan terdistribusi di seluruh dunia.
+
           </form>
         </PortletContent>
         <PortletFooter className={classes.portletFooter}>
