@@ -57,28 +57,7 @@ class Password extends Component {
         </PortletHeader>
         <PortletContent>
           <form className={classes.form}>
-            <TextField
-              className={classes.textField}
-              label="Password"
-              name="password"
-              onChange={event =>
-                this.handleFieldChange('password', event.target.value)
-              }
-              type="password"
-              value={values.password}
-              variant="outlined"
-            />
-            <TextField
-              className={classes.textField}
-              label="Confirm password"
-              name="confirm"
-              onChange={event =>
-                this.handleFieldChange('confirm', event.target.value)
-              }
-              type="password"
-              value={values.confirm}
-              variant="outlined"
-            />
+            Tes
           </form>
         </PortletContent>
         <PortletFooter className={classes.portletFooter}>
