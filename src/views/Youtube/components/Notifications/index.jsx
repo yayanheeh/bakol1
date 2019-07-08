@@ -57,11 +57,11 @@ class Notifications extends Component {
 
 <PortletLabel
             subtitle="   Anda dapat mengirim media dan file, tanpa batasan pada jenis dan ukurannya. Seluruh riwayat obrolan Anda tidak memerlukan ruang disk pada perangkat Anda, dan akan disimpan dengan aman di cloud Telegram selama Anda membutuhkannya."/>
-<p>&ensp;  <b>Telegram</b></p><br/>
+<br/> <p>&ensp;  <b>Telegram</b></p><br/>
 
 <PortletLabel
             subtitle="Memberikan keamanan terbaik yang dikombinasikan dengan kemudahan penggunaan. Semua yang ada di Telegram, termasuk obrolan, grup, media, dll. Dienkripsi menggunakan kombinasi enkripsi AES 256-bit simetris, enkripsi RSA 2048-bit, dan pertukaran kunci aman Diffie-Hellman."/>
-<p>&ensp;<br/>  <b>Kuat</b></p><br/>
+<br/> <p>&ensp; <b>Kuat</b></p><br/>
 
 <PortletLabel
             subtitle="Anda dapat membuat obrolan grup hingga 200.000 anggota, berbagi video besar, dokumen apa pun (.DOC, .MP3, .ZIP, dll.), Dan bahkan mengatur bot untuk tugas tertentu. Ini adalah alat yang sempurna untuk hosting komunitas online dan mengoordinasikan kerja tim."/>
@@ -69,19 +69,19 @@ class Notifications extends Component {
 
 <PortletLabel
             subtitle="Dibangun untuk mengirimkan pesan Anda dalam byte minimum yang memungkinkan, Telegram adalah sistem pengiriman pesan paling andal yang pernah dibuat. Ia bekerja bahkan pada koneksi seluler terlemah."/>
-<p>&ensp;<br/>  <b>Fun</b></p><br/>
+<br/> <p>&ensp; <b>Fun</b></p><br/>
 
 <PortletLabel
             subtitle=" Telegram memiliki alat pengeditan foto dan video yang kuat dan platform stiker / GIF terbuka untuk memenuhi semua kebutuhan ekspresif Anda."/>
-<p>&ensp; <br/> <b>Sederhana</b></p><br/>
+<br/>  <p>&ensp; <b>Sederhana</b></p><br/>
 
 <PortletLabel
             subtitle="Sementara memberikan berbagai fitur yang belum pernah terjadi sebelumnya, kami sangat berhati-hati untuk menjaga antarmuka tetap bersih. Dengan desain minimalis, Telegram ramping dan mudah digunakan."/>
-<p>&ensp; <br/> <b>Rahasia</b></p><br/>
+<br/> <p>&ensp; <b>Rahasia</b></p><br/>
 
 <PortletLabel
             subtitle=" Menjaga privasi Anda dengan serius dan tidak akan pernah memberikan akses pihak ketiga ke data Anda."/>
-<p>&ensp;<br/>  <b>100% gratis tanpa iklan</b></p><br/>
+<br/> <p>&ensp;  <b>100% gratis tanpa iklan</b></p><br/>
 <PortletLabel
             subtitle="Telegram gratis dan akan selalu gratis. Kami tidak akan menjual iklan atau memperkenalkan biaya berlangganan."/>
          
