@@ -52,7 +52,7 @@ class Notifications extends Component {
 
 <PortletLabel
             subtitle="
-                       Anda dapat mengakses pesan Anda dari semua perangkat sekaligus. Mulailah mengetik di ponsel Anda dan selesaikan pesan dari tablet atau laptop Anda. Jangan pernah kehilangan data Anda lagi."/>  <br/>
+                       Anda dapat mengakses pesan Anda dari semua perangkat sekaligus. Mulailah mengetik di ponsel Anda dan selesaikan pesan dari tablet atau laptop Anda. Jangan pernah kehilangan data Anda lagi."/> 
  <br/><p>&ensp;  <b>Tanpa batas</b></p><br/>
 
 <PortletLabel
@@ -65,7 +65,7 @@ class Notifications extends Component {
 
 <PortletLabel
             subtitle="Anda dapat membuat obrolan grup hingga 200.000 anggota, berbagi video besar, dokumen apa pun (.DOC, .MP3, .ZIP, dll.), Dan bahkan mengatur bot untuk tugas tertentu. Ini adalah alat yang sempurna untuk hosting komunitas online dan mengoordinasikan kerja tim."/>
-<p>&ensp;  <b>Dapat di andalkan</b></p><br/>
+<br/>   <p>&ensp;  <b>Dapat di andalkan</b></p><br/>
 
 <PortletLabel
             subtitle="Dibangun untuk mengirimkan pesan Anda dalam byte minimum yang memungkinkan, Telegram adalah sistem pengiriman pesan paling andal yang pernah dibuat. Ia bekerja bahkan pada koneksi seluler terlemah."/>
@@ -84,7 +84,8 @@ class Notifications extends Component {
 <br/> <p>&ensp;  <b>100% gratis tanpa iklan</b></p><br/>
 <PortletLabel
             subtitle="Telegram gratis dan akan selalu gratis. Kami tidak akan menjual iklan atau memperkenalkan biaya berlangganan."/>
-         
+         <hr/><br/>
+<center>Fitur Script Telegram Web</center>
         </PortletContent>
         <PortletFooter className={classes.portletFooter}>
           <Button
