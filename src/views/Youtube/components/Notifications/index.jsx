@@ -82,7 +82,8 @@ class Notifications extends Component {
 <PortletLabel
             subtitle=" Menjaga privasi Anda dengan serius dan tidak akan pernah memberikan akses pihak ketiga ke data Anda."/>
 <p>&ensp;  <b>100% gratis tanpa iklan</b></p><br/>
-
+<PortletLabel
+            subtitle="Telegram gratis dan akan selalu gratis. Kami tidak akan menjual iklan atau memperkenalkan biaya berlangganan."/>
          
         </PortletContent>
         <PortletFooter className={classes.portletFooter}>
