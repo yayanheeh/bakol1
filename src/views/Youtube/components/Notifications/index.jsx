@@ -42,7 +42,7 @@ class Notifications extends Component {
         </PortletHeader>
         <PortletContent noPadding>
 
-<br/>p>&ensp;  <b>Telegram</b></p><br/>
+<br/>&ensp;  <b>Telegram</b></p><br/>
 
 <PortletLabel
             subtitle="
@@ -94,6 +94,7 @@ class Notifications extends Component {
             Save
           </Button>
         </PortletFooter>
+<div>rest </div>
       </Portlet>
     );
   }
