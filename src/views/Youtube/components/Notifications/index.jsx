@@ -41,10 +41,11 @@ class Notifications extends Component {
           />
         </PortletHeader>
         <PortletContent noPadding>
+<p>&ensp;  <b>Telegram</b></p><br/>
+
 <PortletLabel
             subtitle="
-                     Telegram adalah aplikasi perpesanan tercepat di pasar, menghubungkan orang-orang melalui jaringan pusat data yang unik dan terdistribusi di seluruh dunia.
-"/>  <br/>
+                      Sebuah aplikasi layanan pengirim pesan instan multiplatform berbasis awan yang bersifat gratis dan nirlaba. Klien Telegram tersedia untuk perangkat telepon seluler dan sistem perangkat komputer. Para pengguna dapat mengirim pesan dan bertukar foto, video, stiker, audio, dan tipe berkas lainnya."/>  <br/>
 
 
 <p>&ensp;  <b>Telegram</b></p>
