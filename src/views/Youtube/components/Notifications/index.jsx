@@ -45,7 +45,29 @@ class Notifications extends Component {
             subtitle="
                      Telegram adalah aplikasi perpesanan tercepat di pasar, menghubungkan orang-orang melalui jaringan pusat data yang unik dan terdistribusi di seluruh dunia.
 "/>  <br/>
- <p>&ensp;  <b>Telegram</b></p>
+ <style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+</style>
+
+
+<p>&ensp;  <b>Telegram</b></p>
 <p align="justify">&ensp;
  <PortletLabel
             subtitle="
