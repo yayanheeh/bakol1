@@ -40,7 +40,9 @@ class Notifications extends Component {
             title="Notifications"
           />
         </PortletHeader>
-        <PortletContent noPadding><br/>p>&ensp;  <b>Telegram</b></p><br/>
+        <PortletContent noPadding>
+
+<br/>p>&ensp;  <b>Telegram</b></p><br/>
 
 <PortletLabel
             subtitle="
