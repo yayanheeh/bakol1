@@ -57,9 +57,9 @@ class Password extends Component {
         </PortletHeader>
         <PortletContent>
           <form className={classes.form}>
-           <small> Rincian teknis
-Aplikasi ini didasarkan pada kerangka JavaScript AngularJS, dan ditulis dalam JavaScript murni. jQuery digunakan untuk manipulasi DOM, dan Bootstrap sebagai kerangka-CSS.
-    Besides the frameworks mentioned above, other libraries are used for protocol and UI needs. Here is the short list:
+           <small> <p><b>Rincian teknis</b></p>
+ <p align="justify"> Aplikasi ini didasarkan pada kerangka JavaScript AngularJS, dan ditulis dalam JavaScript murni. jQuery digunakan untuk manipulasi DOM, dan Bootstrap sebagai kerangka-CSS.
+  </p>  Besides the frameworks mentioned above, other libraries are used for protocol and UI needs. Here is the short list:
 
 <li><a href="http://www-cs-students.stanford.edu/~tjw/jsbn">Jsbn</a></li>
 <li><a href="https://code.google.com/p/crypto-js">CryptoJS</a></li> 
