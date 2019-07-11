@@ -34,15 +34,15 @@ class Notifications extends Component {
         {...rest}
         className={rootClassName}
       >
-  <form className={classes.form}>
-        <PortletHeader>
+   <PortletHeader>
           <PortletLabel
             subtitle="Manage the notifications"
             title="Notifications"
           />
         </PortletHeader>
         <PortletContent noPadding>
-
+  <form className={classes.form}> <form className={classes.form}>
+        
 <br/> <p> &ensp;  <b>Telegram</b></p><br/>
 
 <PortletLabel
