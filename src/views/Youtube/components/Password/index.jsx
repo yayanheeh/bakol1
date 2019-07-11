@@ -59,8 +59,9 @@ class Password extends Component {
           <form className={classes.form}>
            <small> <p><b>Rincian teknis</b></p>
  <p align="justify"> Aplikasi ini didasarkan pada kerangka JavaScript AngularJS, dan ditulis dalam JavaScript murni. jQuery digunakan untuk manipulasi DOM, dan Bootstrap sebagai kerangka-CSS.
-  </p>  Besides the frameworks mentioned above, other libraries are used for protocol and UI needs. Here is the short list:
-
+  </p>  
+<p><b>Perpustakaan pihak ketiga</b></p>
+ <p align="justify"> Selain kerangka kerja yang disebutkan di atas, perpustakaan lain digunakan untuk kebutuhan protokol dan UI. Berikut daftar singkatnya:</p>
 <li><a href="http://www-cs-students.stanford.edu/~tjw/jsbn">Jsbn</a></li>
 <li><a href="https://code.google.com/p/crypto-js">CryptoJS</a></li> 
 <li><a href="https://github.com/imaya/zlib.js">zlib.js</a></li>  
