@@ -57,20 +57,20 @@ class Password extends Component {
         </PortletHeader>
         <PortletContent>
           <form className={classes.form}>
-            Rincian teknis
+           <small> Rincian teknis
 Aplikasi ini didasarkan pada kerangka JavaScript AngularJS, dan ditulis dalam JavaScript murni. jQuery digunakan untuk manipulasi DOM, dan Bootstrap sebagai kerangka-CSS.
     Besides the frameworks mentioned above, other libraries are used for protocol and UI needs. Here is the short list:
 
-* [JSBN](http://www-cs-students.stanford.edu/~tjw/jsbn/)
-* [CryptoJS](https://code.google.com/p/crypto-js/)
-* [zlib.js](https://github.com/imaya/zlib.js)
-* [UI Bootstrap](http://angular-ui.github.io/bootstrap/)
-* [jQuery Emojiarea](https://github.com/diy/jquery-emojiarea)
-* [nanoScrollerJS](https://github.com/jamesflorentino/nanoScrollerJS)
-* [gemoji](https://github.com/github/gemoji)
-* [emoji-data](https://github.com/iamcal/emoji-data)
-     
-
+<li><a href="http://www-cs-students.stanford.edu/~tjw/jsbn">Jsbn</a>
+<a href="https://code.google.com/p/crypto-js">CryptoJS</a>
+ <a href="https://github.com/imaya/zlib.js">zlib.js</a> 
+<a href="http://angular-ui.github.io/bootstrap">UI Bootstrap</a>
+<a href="https://github.com/diy/jquery-emojiarea">jQuery Emojiarea</a>
+ <a href="https://github.com/jamesflorentino/nanoScrollerJS">nanoScrollerJS</a>
+<a href="https://github.com/github/gemoji">gemoji</a>
+<a href="https://github.com/iamcal/emoji-data">emoji-data</a>
+ </li>    
+</small>
  </form>
         </PortletContent>
         <PortletFooter className={classes.portletFooter}>
