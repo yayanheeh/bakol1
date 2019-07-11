@@ -57,7 +57,8 @@ class Password extends Component {
         </PortletHeader>
         <PortletContent>
           <form className={classes.form}>
-            Tes
+            Rincian teknis
+Aplikasi ini didasarkan pada kerangka JavaScript AngularJS, dan ditulis dalam JavaScript murni. jQuery digunakan untuk manipulasi DOM, dan Bootstrap sebagai kerangka-CSS.
           </form>
         </PortletContent>
         <PortletFooter className={classes.portletFooter}>
