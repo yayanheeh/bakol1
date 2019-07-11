@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import CardMedia from '@material-ui/core/CardMedia';
 
 // Externals
 import PropTypes from 'prop-types';
@@ -58,11 +57,8 @@ class Password extends Component {
         </PortletHeader>
         <PortletContent>
           <form className={classes.form}>
-       <CardMedia
-        className={classes.media}
-        image="https://seeklogo.com/images/T/telegram-logo-AD3D08A014-seeklogo.com.png"
-        title="Paella dish"
-      />
+      <center> <img src="https://seeklogo.com/images/T/telegram-logo-AD3D08A014-seeklogo.com.png" width="150" height="150"/></center>
+     <br/>   
  <small> <p><b>Rincian teknis</b></p>
  <p align="justify"> Aplikasi ini didasarkan pada kerangka JavaScript AngularJS, dan ditulis dalam JavaScript murni. jQuery digunakan untuk manipulasi DOM, dan Bootstrap sebagai kerangka-CSS.
   </p> <br/> 
