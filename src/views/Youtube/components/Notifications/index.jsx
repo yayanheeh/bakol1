@@ -34,6 +34,7 @@ class Notifications extends Component {
         {...rest}
         className={rootClassName}
       >
+  <form className={classes.form}>
         <PortletHeader>
           <PortletLabel
             subtitle="Manage the notifications"
@@ -86,7 +87,7 @@ class Notifications extends Component {
             subtitle="Telegram gratis dan akan selalu gratis. Kami tidak akan menjual iklan atau memperkenalkan biaya berlangganan."/>
          <hr/><br/>
 <center>Fitur Script Telegram Web</center>
-        </PortletContent>
+       </from> </PortletContent>
         <PortletFooter className={classes.portletFooter}>
           <Button
             color="primary"
