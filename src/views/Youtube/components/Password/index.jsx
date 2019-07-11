@@ -61,14 +61,14 @@ class Password extends Component {
 Aplikasi ini didasarkan pada kerangka JavaScript AngularJS, dan ditulis dalam JavaScript murni. jQuery digunakan untuk manipulasi DOM, dan Bootstrap sebagai kerangka-CSS.
     Besides the frameworks mentioned above, other libraries are used for protocol and UI needs. Here is the short list:
 
-<li><a href="http://www-cs-students.stanford.edu/~tjw/jsbn">Jsbn</a>
-<a href="https://code.google.com/p/crypto-js">CryptoJS</a>
- <a href="https://github.com/imaya/zlib.js">zlib.js</a> 
-<a href="http://angular-ui.github.io/bootstrap">UI Bootstrap</a>
-<a href="https://github.com/diy/jquery-emojiarea">jQuery Emojiarea</a>
- <a href="https://github.com/jamesflorentino/nanoScrollerJS">nanoScrollerJS</a>
-<a href="https://github.com/github/gemoji">gemoji</a>
-<a href="https://github.com/iamcal/emoji-data">emoji-data</a>
+<li><a href="http://www-cs-students.stanford.edu/~tjw/jsbn">Jsbn</a></li>
+<li><a href="https://code.google.com/p/crypto-js">CryptoJS</a></li> 
+<li><a href="https://github.com/imaya/zlib.js">zlib.js</a></li>  
+ <li><a href="http://angular-ui.github.io/bootstrap">UI Bootstrap</a></li> 
+<li> <a href="https://github.com/diy/jquery-emojiarea">jQuery Emojiarea</a></li>
+<li> <a href="https://github.com/jamesflorentino/nanoScrollerJS">nanoScrollerJS</a> </li>
+<li><a href="https://github.com/github/gemoji">gemoji</a></li>
+<li> <a href="https://github.com/iamcal/emoji-data">emoji-data</a>
  </li>    
 </small>
  </form>
