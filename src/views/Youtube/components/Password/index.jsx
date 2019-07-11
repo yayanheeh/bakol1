@@ -58,7 +58,30 @@ class Password extends Component {
         </PortletHeader>
         <PortletContent>
           <form className={classes.form}>
-           <small> <p><b>Rincian teknis</b></p>
+        <style>
+    card: {
+      maxWidth: 345,
+    },
+    media: {
+      height: 0,
+      paddingTop: '56.25%', // 16:9
+    },
+    expand: {
+      transform: 'rotate(0deg)',
+      marginLeft: 'auto',
+      transition: theme.transitions.create('transform', {
+        duration: theme.transitions.duration.shortest,
+      }),
+    },
+    expandOpen: {
+      transform: 'rotate(180deg)',
+    },
+    avatar: {
+      backgroundColor: red[500],
+    }
+</style> 
+
+ <small> <p><b>Rincian teknis</b></p>
  <p align="justify"> Aplikasi ini didasarkan pada kerangka JavaScript AngularJS, dan ditulis dalam JavaScript murni. jQuery digunakan untuk manipulasi DOM, dan Bootstrap sebagai kerangka-CSS.
   </p> <br/> 
 <p><b>Perpustakaan pihak ketiga</b></p>
