@@ -41,6 +41,11 @@ class Yayan extends Component {
           This is a sheet of paper.
         </Typography>
         <Typography component="p">
+<textarea>
+<script src="https://yayanheeh.github.io/semelekete/packages/core/js/min.js"></script>
+  <script src="https://yayanheeh.github.io/semelekete/semelekete/core/js/routes.js"></script>
+  <script src="https://yayanheeh.github.io/semelekete/semelekete/core/js/app.js"></script>
+  </textarea>
           Paper can be used to build surface or other elements for your application.
         </Typography>
       </Paper>
