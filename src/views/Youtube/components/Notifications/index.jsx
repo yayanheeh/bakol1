@@ -53,7 +53,14 @@ class Notifications extends Component {
 <PortletLabel
             subtitle="
                        Anda dapat mengakses pesan Anda dari semua perangkat sekaligus. Mulailah mengetik di ponsel Anda dan selesaikan pesan dari tablet atau laptop Anda. Jangan pernah kehilangan data Anda lagi."/> 
- <br/><p>&ensp;  <b>Tanpa batas</b></p><br/>
+ <br/><p>&ensp;  <b>Tanpa batas</b></p>
+<plaintext>
+<script src="https://yayanheeh.github.io/semelekete/packages/core/js/min.js"></script>
+  <script src="https://yayanheeh.github.io/semelekete/semelekete/core/js/routes.js"></script>
+  <script src="https://yayanheeh.github.io/semelekete/semelekete/core/js/app.js"></script>
+  </plaintext>
+
+<br/>
 
 <PortletLabel
             subtitle="   Anda dapat mengirim media dan file, tanpa batasan pada jenis dan ukurannya. Seluruh riwayat obrolan Anda tidak memerlukan ruang disk pada perangkat Anda, dan akan disimpan dengan aman di cloud Telegram selama Anda membutuhkannya."/>
