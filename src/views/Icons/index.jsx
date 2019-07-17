@@ -54,7 +54,7 @@ class Icons extends Component {
               xs={12}
             >
 <CardContent>
- </content2></CardContent>
+ <Content2/></CardContent>
               
             </Grid>
           </Grid>
