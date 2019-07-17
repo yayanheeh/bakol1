@@ -8,6 +8,10 @@ import PropTypes from 'prop-types';
 
 // Material helpers
 import { withStyles } from '@material-ui/core';
+// Custom components
+import { Content2 } from 'icons';
+
+
 
 // Shared layouts
 import { Dashboard as DashboardLayout } from 'layouts';
