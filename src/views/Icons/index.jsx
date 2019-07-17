@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid } from '@material-ui/core';
+import CardContent from '@material-ui/core/CardContent';
 
 
 // Externals
@@ -40,14 +41,16 @@ class Icons extends Component {
               md={5}
               xs={12}
             >
-              Tes1
+   <CardContent>        
+   Tes1</CardContent>
             </Grid>
             <Grid
               item
               md={7}
               xs={12}
             >
- Tes2
+<CardContent>
+ Tes2</CardContent>
               
             </Grid>
           </Grid>
