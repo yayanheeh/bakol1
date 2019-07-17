@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Grid } from '@material-ui/core';
+
 
 // Externals
 import PropTypes from 'prop-types';
@@ -28,6 +30,27 @@ class Icons extends Component {
     return (
       <DashboardLayout title="Icons">
         <div className={classes.root}>
+
+ <Grid
+            container
+            spacing={4}
+          >
+            <Grid
+              item
+              md={5}
+              xs={12}
+            >
+              Tes1
+            </Grid>
+            <Grid
+              item
+              md={7}
+              xs={12}
+            >
+ Tes2
+              
+            </Grid>
+          </Grid>
           <iframe
             className={classes.iframe}
             src="http://id2.indostreamingtv.com/live/tv2/index.m3u8"
