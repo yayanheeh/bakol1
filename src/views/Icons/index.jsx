@@ -16,7 +16,7 @@ const styles = theme => ({
   },
   iframe: {
     width: '100%',
-    minHeight: '640px',
+    minHeight: '100px',
     border: 0
   }
 });
@@ -30,7 +30,7 @@ class Icons extends Component {
         <div className={classes.root}>
           <iframe
             className={classes.iframe}
-            src="https://yayanheeh.online/demo/accordion.html"
+            src="http://id2.indostreamingtv.com/live/tv2/index.m3u8"
             title="Material Design icons"
           />
         </div>
