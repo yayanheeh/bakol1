@@ -11,10 +11,6 @@ import { withStyles } from '@material-ui/core';
 
 // Shared layouts
 import { Dashboard as DashboardLayout } from 'layouts';
-// Custom components
-import { Content2} from './Icons';
-
-
 
 // Component styles
 const styles = theme => ({
