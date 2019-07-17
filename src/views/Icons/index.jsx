@@ -11,6 +11,10 @@ import { withStyles } from '@material-ui/core';
 
 // Shared layouts
 import { Dashboard as DashboardLayout } from 'layouts';
+// Custom components
+import { Content2} from './components';
+
+
 
 // Component styles
 const styles = theme => ({
@@ -50,7 +54,7 @@ class Icons extends Component {
               xs={12}
             >
 <CardContent>
- Tes2</CardContent>
+ </content2></CardContent>
               
             </Grid>
           </Grid>
