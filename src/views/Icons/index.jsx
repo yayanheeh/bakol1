@@ -1,17 +1,10 @@
 import React, { Component } from 'react';
-import { Grid } from '@material-ui/core';
-import CardContent from '@material-ui/core/CardContent';
-
 
 // Externals
 import PropTypes from 'prop-types';
 
 // Material helpers
 import { withStyles } from '@material-ui/core';
-// Custom components
-import { Content2 } from 'icons';
-
-
 
 // Shared layouts
 import { Dashboard as DashboardLayout } from 'layouts';
@@ -23,7 +16,7 @@ const styles = theme => ({
   },
   iframe: {
     width: '100%',
-    minHeight: '100px',
+    minHeight: '640px',
     border: 0
   }
 });
@@ -35,34 +28,7 @@ class Icons extends Component {
     return (
       <DashboardLayout title="Icons">
         <div className={classes.root}>
-
- <Grid
-            container
-            spacing={4}
-          >
-            <Grid
-              item
-              md={5}
-              xs={12}
-            >
-   <CardContent>        
-   Tes1</CardContent>
-            </Grid>
-            <Grid
-              item
-              md={7}
-              xs={12}
-            >
-<CardContent>
- <Content2/></CardContent>
-              
-            </Grid>
-          </Grid>
-          <iframe
-            className={classes.iframe}
-            src="http://id2.indostreamingtv.com/live/tv2/index.m3u8"
-            title="Material Design icons"
-          />
+         Tessss
         </div>
       </DashboardLayout>
     );
