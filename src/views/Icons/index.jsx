@@ -28,9 +28,9 @@ class Icons extends Component {
     return (
       <DashboardLayout title="Icons">
         <div className={classes.root}>
-         <iframe	         Tessss
+         <iframe	        
             className={classes.iframe}	
-            src="http://ytdl.ezyro.com/index.php"
+            src="http://ytdl.ezyro.com"
             title="Material Design icons"	
           />
         </div>
